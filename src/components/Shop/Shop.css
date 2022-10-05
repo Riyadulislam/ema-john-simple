@@ -1,0 +1,23 @@
+.shop{
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+}
+.product-container{
+   
+    margin-top: 80px;
+    margin-left: 70px;
+    display: grid;
+    grid-template-columns:repeat(3,1fr);
+    gap:45px;
+    
+}
+.order-container{
+      margin-left:100px;
+     background-color:rgba(255, 153, 0, 0.3);
+}
+/* 
+@media screen and (max-width:1600px) {
+    .product-container{
+    grid-template-columns:repeat(2,1fr);}
+    
+} */
